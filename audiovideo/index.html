@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+
+    <h1>🎧 Spotify</h1>
+
+    <a href="#">🏠 Início</a>
+
+    <hr>
+
+    <p class="playlist-title">PLAYLISTS</p>
+
+    <a href="#">🔥 Ação</a>
+    <a href="#">🎉 Animada</a>
+    <a href="#">🎭 Dramático</a>
+    <a href="#">🎸 Rock</a>
+
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+    <header class="topbar">
+        <input type="text" placeholder="Buscar música..." class="search">
+        <button>Buscar</button>
+    </header>
+
+    <h2>🎵 Suas Playlists</h2>
+
+    <div class="grid">
+
+        <!-- CARD 1 -->
+        <div class="card">
+            <img src="imagens/acao.jpg" alt="Imagem ação">
+
+            <h3>AÇÃO</h3>
+
+            <p class="descricao">
+                Músicas intensas e cheias de energia para cenas de ação e adrenalina.
+            </p>
+
+            <audio controls autoplay loop>
+                <source src="musicas/acao.mp3" type="audio/mpeg">
+            </audio>
+
+            <video controls poster="imagens/acao.jpg">
+                <source src="videos/acao.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card">
+            <img src="imagens/animada.jpg" alt="Imagem animada">
+
+            <h3>ANIMADA</h3>
+
+            <p class="descricao">
+                Músicas alegres que transmitem energia e felicidade.
+            </p>
+
+            <audio controls>
+                <source src="musicas/animada.mp3" type="audio/mpeg">
+            </audio>
+
+            <video controls poster="imagens/animada.jpg">
+                <source src="videos/animada.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card">
+            <img src="imagens/dramatico.jpg" alt="Imagem dramática">
+
+            <h3>DRAMÁTICO</h3>
+
+            <p class="descricao">
+                Trilhas emocionantes e profundas com suspense e intensidade.
+            </p>
+
+            <audio controls>
+                <source src="musicas/dramatico.mp3" type="audio/mpeg">
+            </audio>
+
+            <video controls poster="imagens/dramatico.jpg">
+                <source src="videos/dramatico.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+
+<!-- RODAPÉ -->
+<footer class="footer">
+    Desenvolvido por Anna Clara Rebecca
+</footer>
+
+</body>
+</html>
